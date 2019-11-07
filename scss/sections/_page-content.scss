@@ -1,0 +1,619 @@
+// Page Content styling
+
+// Home page
+.home-text {
+  p {
+    color: $secondary-color;
+    font-size: 14pt;
+  }
+}
+
+.home-img {
+  margin-top: 50px;
+}
+
+.home-quote {
+  p {
+    color: $primary-color;
+    font-size: 8.5pt;
+    font-style: italic;
+    font-weight: 500;
+  }
+}
+
+.inline-wheels {
+  margin: 0;
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
+
+
+// Counselling for a Contemporary society
+.susan-custom {
+  margin-top: -5px;
+  padding-right: 10px;
+}
+
+.image-fish {
+  padding-right: 5px;
+
+  @media #{$large-up} {
+    padding: 0 10px 10px 0;
+  }
+}
+
+.image-business-man {
+  padding: 0 5px 5px 15px;
+
+  @media #{$small-only}, #{$medium-only} {
+    width: 80px;
+  }
+}
+
+
+
+// The Counsellor page
+.fees {
+  color: $primary-color;
+  font-size: 11pt;
+  font-family: "arialblack", Arial, "Calibri", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+}
+
+.susan-image {
+  padding-right: 10px;
+
+  @media #{$large-up} {
+    padding-bottom: 15px;
+  }
+}
+
+.font-8 {
+  font-size: 8pt;
+}
+
+
+// Professional Counselling Overview 
+.text-image-logo {
+  padding-right: 7px;
+  padding-bottom: 0px;
+}
+
+
+// Individual Work
+.margin-top-custom-bullets {
+  margin-top: 25px !important;
+}
+
+@media #{$large-up} {
+  .minus-top-bullet-1 {
+    margin-top: -5px;
+  }
+
+  .minus-top-bullet-2 {
+    margin-top: -17px;
+
+    img {
+      margin-left: 50px;
+    }
+  }
+
+  .minus-top-bullet-3 {
+    margin-top: -14px;
+    margin-bottom: 10px !important;
+  }
+}
+
+.ethical-pdf {
+  font-weight: 400;
+}
+
+
+// Partner and Family Work
+.red-arrow {
+  @media #{$large-up} {
+    margin-right: 650px;
+  }
+
+  @media #{$medium-only} {
+    margin-right: 450px;
+  }
+
+  @media #{$small-only} {
+    margin-right: 5%;
+  }
+}
+
+
+// How Long Will We Work 
+.control-text {
+  padding-top: 20px;
+}
+
+.control-image {
+  margin-top: -30px;
+}
+
+
+// Approaches and Methodologies
+.fi-asterisk {
+  margin-top: 3px;
+  font-size: 10px;
+  color: $tertiary-color;
+}
+
+.red-bullet-list-2 {
+  clear: both;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 10pt;
+  line-height: 1.3;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  li {
+    margin-left: 5px;
+    margin-bottom: 2px;
+    padding: 0 10px;
+  }
+}
+
+.red-bullet-list-3 {
+  clear: both;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 10pt;
+  line-height: 1.3;
+
+  list-style-image: none;
+
+  li {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+}
+
+.partner-wheel {
+  margin-top: -5px;
+  padding: 5px;
+}
+
+.partner-female-head {
+  padding-left: 5px;
+
+  @media #{$large-up} {
+    margin-right: 53%;
+  }
+
+  @media #{$medium-only} {
+    margin-right: 30%;
+  }
+
+  @media #{$small-only} {
+    margin-right: 5%;
+  }
+}
+
+.partner-target {
+  padding-left: 5px;
+  
+  @media #{$large-up} {
+    margin-top: -25px;
+    margin-right: 65%;
+  }
+
+  @media #{$medium-only} {
+    margin-top: -25px;
+    margin-right: 55%;
+  }
+
+  @media #{$small-only} {
+    margin-top: -5px;
+    margin-right: 10%;
+  }
+}
+
+
+// Vision & Values page 
+.vision-quote {
+  color: $primary-color;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+  text-align: justify !important;
+}
+
+
+// Leader and Teamship Advancement
+.title-small {
+  color: $primary-color;
+}
+
+.text-image {
+  padding-right: 15px;
+  padding-bottom: 1px;
+}
+
+
+// Family Business Counselling and Advising
+.red-text-to-change {
+  color: red;
+}
+
+
+// Contact Us page
+address {
+  font-size: 10pt;
+  font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+}
+
+.contact-numbers {
+  padding-left: 50px;
+}
+
+.numbers {
+  padding-right: 200px;
+}
+
+.image-barbara {
+  padding-right: 5px;
+
+  @media #{$medium-only} {
+    width: 100px;
+  }
+}
+
+
+// Sports Counselling page 
+.running-para {
+  @media #{$large-up} {
+    margin-left: 250px !important;
+  }
+}
+
+.running-man {
+  padding-right: 30px;
+
+  @media #{$large-up} {
+    padding-bottom: 90px;
+  }
+
+  @media #{$medium-only} {
+    width: 170px;
+  }
+
+  @media #{$small-only} {
+    width: 120px;
+    padding-right: 10px;
+  }
+}
+
+.karate-kick {
+
+  @media #{$medium-only} {
+    width: 170px;
+  }
+
+  @media #{$small-only} {
+    width: 120px;
+  }
+}
+
+.sports-boxes {
+  margin-top: -50px !important;
+}
+
+.sports-padding-1 {
+  @media #{$large-up} {
+    margin: -25px 40px 0 190px;
+  }
+}
+
+.sports-padding-2 {
+  @media #{$large-up} {
+    margin: -25px 190px 0 40px;
+  }
+}
+
+.box-max {
+  @media #{$large-up} {
+    min-height: 200px;
+  }
+}
+
+
+// The Hero's Farewell
+.hero-box-1 {
+  @media #{$large-up} {
+    margin: 10px 40px 0 120px;
+
+    p {
+      margin-top: 18px;
+      padding-left: 78px !important;
+    }
+
+    img {
+      margin-top: 15px;
+    }
+  }
+}
+
+.hero-box-2 {
+  @media #{$large-up} {
+    margin: 10px 120px 0 40px;
+
+    p {
+      padding-left: 78px !important;
+    }
+  }
+}
+
+.hero-box-3 {
+  @media #{$large-up} {
+    margin: 10px 40px 0 120px;
+
+    p {
+      margin-top: 18px;
+      padding-left: 78px !important;
+    }
+
+    img {
+      margin-top: 10px;
+      padding-left: 3px;
+    }
+  }
+}
+
+.hero-box-4 {
+  @media #{$large-up} {
+    margin: 10px 120px 0 40px;
+
+    p {
+      margin-top: 7px;
+      padding-left: 78px !important;
+    }
+
+    img {
+      margin-top: 7px;
+    }
+  }
+}
+
+.box-max-hero {
+  @media #{$large-up} {
+    min-height: 135px;
+  }
+
+  @media #{$medium-only} {
+    img {
+      width: 40px;
+    }
+  }
+
+  @media #{$small-only} {
+    img {
+      width: 60px;
+    }
+  }
+}
+
+.hero-images {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+
+
+// Youth Entrepreneurship
+.youth-box-min-height {
+  @media #{$large-up} {
+    min-height: 365px;
+  }
+}
+
+.quote-box-min-height {
+  margin-bottom: 10px;
+
+  @media #{$large-up} {
+    max-height: 265px;
+  }
+}
+
+.font-7 {
+  font-size: 7pt;
+}
+
+.box-quote {
+  font-size: 9pt;
+}
+
+.youth-para p {
+  margin-right: -15px !important;
+}
+
+.youth-para-margin {
+  margin-top: -6px !important;
+}
+
+.youth-image {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+// Testimonials
+// .font-nine-italics {
+//   i {
+//     font-size: 9pt;
+//   }
+// }
+
+
+// Course Participants
+.test-small {
+  font-size: 10pt;
+  font-style: normal;
+  font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  color: $primary-color;
+}
+
+.course-bullets {
+  font-style: italic;
+
+  li {
+    margin: 7px 0 !important;
+  }
+}
+
+// School Heads and Academics
+.school-heads-bullets {
+  font-style: italic;
+
+  li {
+    margin: 4px 0 !important;
+  }
+}
+
+// Initiative Participants
+.no-bold {
+  font-weight: 400;
+}
+
+// Sponsors and Mentors
+.mentors-bullets {
+  li {
+    margin: 1px 0 !important;
+  }
+}
+
+
+// Other page
+.blue {
+  color: $primary-color;
+}
+
+.red {
+  color: $tertiary-color;
+}
+
+.sub-heading {
+  padding-right: 5px;
+  color: $primary-color;
+  font-size: 11pt;
+  font-family: "arialblack", Arial, "Calibri", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+}
+
+.sub-small {
+  font-style: normal;
+  font-size: 11pt;
+  font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 600;
+}
+
+.page-content {
+  p {
+    text-align: justify;
+  }
+
+  ul {
+    text-align: justify;
+  }
+}
+
+.red-box {
+  padding: 8px 10px 8px 10px;
+  border: 1px solid $tertiary-color;
+
+  p {
+    margin-bottom: 0px;
+    text-align: justify;
+    font-size: 9pt;
+  }
+}
+
+.red-box-content {
+  padding: 10px;
+  border: 1px solid $tertiary-color;
+  padding-bottom: 0;
+
+  p {
+    text-align: justify;
+  }
+}
+
+.left-image-space {
+  padding-left: 10px;
+}
+
+.name-small {
+  font-size: 8pt !important;
+}
+
+.carter {
+  padding-top: 2px;
+}
+
+.red-box-mini {
+  padding: 10px 10px 0 10px;
+  border: 1px solid $tertiary-color;
+
+  p {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  @media #{$medium-up} {
+    width: 50%;
+    float: right;
+  }
+}
+
+.red-bullet-list {
+  clear: both;
+  list-style-type: none;
+  color: $secondary-color;
+  font-size: 10pt;
+  line-height: 1.3;
+
+  list-style-image: url("data:image/gif;base64,R0lGODlhBgAGAMQAAP//////AP8A//8AAAD//wD/AAAA/wAAAMAAAMQREcQSEttubttvb912dt13d/75+f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAABAALAAAAAAGAAYAAAUV4LMoyfIwSIo4ioooraqgaiMm5RMCADs=");
+
+  li {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+  }
+}
+
+.double-head-img {
+  padding-left: 40px;
+}
+
+.under-construction {
+  margin-bottom: 200px;
+}
+
+.location-and-fees li {
+  margin-left: -25px !important;
+}
+
+.image-space {
+  padding-right: 5px;
+}
+
+.image-space-left {
+  padding-left: 5px;
+}
+
+.image-space-large {
+  padding-right: 15px;
+}
+
+.white-space {
+  margin-top: 250px;
+}

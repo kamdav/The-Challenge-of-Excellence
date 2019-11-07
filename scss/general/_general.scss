@@ -1,0 +1,238 @@
+// General styling
+
+body {
+  background: $white;
+}
+
+h1,h2,h3,h4,h5 {
+  color: $primary-color;
+  font-family: "arialblack", Arial, "Calibri", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16pt;
+}
+
+h5 {
+  font-size: 11pt;
+}
+
+p {
+  color: $secondary-color;
+  font-size: 10pt;
+  line-height: 1.3;
+}
+
+a {
+  font-weight: 600;
+  outline:none !important;
+
+  &:hover {
+    color: $tertiary-color;
+  }
+}
+
+.grey-link {
+  color: $secondary-color;
+  font-weight: 600;
+
+  &:hover {
+    color: $tertiary-color;
+  }
+}
+
+ul li {
+  list-style-type: none;
+}
+
+small {
+  font-size: 11px;
+  font-style: italic;
+}
+
+address {
+  color: $secondary-color;
+  font-style: normal;
+}
+
+
+// Margin spacing TOP and BOTTOM
+.margin-both {
+  margin: 10px 0;
+}
+
+.margin-both-large {
+  margin: 30px 0;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+.margin-top-small-only {
+  @media #{$small-only}, #{$medium-only} {
+    margin-top: 15px;
+  }
+}
+
+.margin-top-large {
+  margin-top: 30px;
+}
+
+.margin-bottom {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-large {
+  margin-bottom: 30px;
+}
+
+
+.minus-margin-top {
+  margin-top: -10px;
+}
+
+.minus-margin-top-small {
+  margin-top: -5px;
+}
+
+.minus-margin-bottom {
+  margin-bottom: -10px;
+}
+
+.minus-margin-bottom-large {
+  margin-bottom: -20px;
+}
+
+
+.margin-left {
+  margin-left: 10px;
+}
+
+// Margin spacing SIDES
+.padding-sides {
+  @media #{$large-up} {
+    padding: 0 110px;
+  }
+}
+
+.padding-left {
+  @media #{$large-up} {
+    padding-left: 110px;
+  }
+}
+
+.padding-right {
+  @media #{$large-up} {
+    padding-right: 110px;
+  }
+}
+
+
+.bottom-logo-margin {
+  margin-top: 30px;
+}
+
+.bottom-logo-margin-large {
+  margin-top: 70px;
+}
+
+.footer {
+  margin-top: 7px;
+
+  p {
+    font-size: 8pt;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $tertiary-color;
+    }
+  }
+
+  .takomo {
+    a {
+      color: darken($white, 45%);
+    }
+  }
+}
+
+
+// Orbit slider
+.orbit-container {
+  margin-top: -15px !important;
+}
+
+.orbit-content {
+
+  h4 {
+    margin-bottom: 0 !important;
+    padding-top: 20px;
+    font-size: 10pt;
+    font-weight: 600;
+    color: $primary-color;
+    font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  }
+
+  h5 {
+    margin-bottom: 0 !important;
+    font-size: 8pt;
+    color: $primary-color;
+    font-family: "Calibri", "arialblack", Arial, "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  }
+
+  @media #{$small-only}, #{$medium-only} {
+    padding-bottom: 20px !important;
+  }
+}
+
+.centered-list {
+  display: inline-block;
+
+  li {
+    padding: 0 30px;
+  }
+}
+
+
+// Dropdown changes
+.dropdown-title {
+  li a {
+    @media #{$large-up} {
+      min-height: 70px !important;
+    }
+  }
+
+  a {
+    color: $primary-color !important;
+    background: $secondary-color !important;
+    border-bottom: 1px dashed $black;
+    cursor: default;
+
+    &:hover {
+      background: $secondary-color !important;
+    }
+  }
+}
+
+@media #{$large-up} {
+  .testimonials-dropdown {
+    li {
+      a {
+        min-height: 40px !important;
+      }
+    }
+  }
+
+  .dropdown-title a {  
+    height: 50px !important;
+  }
+}
+
+.red-contact-box {
+  margin: 10px 0 25px 0;
+  padding: 0 10px;
+}

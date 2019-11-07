@@ -1,0 +1,123 @@
+//
+// Tree links
+//
+
+
+.tree {
+    margin-bottom: 80px;
+    
+    span {
+        font-size: 14px;
+        text-decoration: italic;
+    }
+
+    @media print {    
+      margin-bottom: -50px;
+    }
+}
+
+.passion {
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 360px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 29%;
+    }
+}
+
+.trustworthiness {
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 280px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 21%;
+    }
+}
+
+.fairness {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 350px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 27%;
+    }
+}
+
+.excellence {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 400px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 33%;
+    }
+}
+
+.courage {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 490px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 40%;
+    }
+}
+
+.generosity {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 560px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 47%;
+    }
+}
+
+.accountability {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 670px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 56%;
+    }
+}
+
+.creativity {
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 730px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 62%;
+    }
+}
+
+.lifelong-learning {
+    position: absolute;
+    margin-top: -105px;
+    margin-left: 730px;
+
+    @media only screen and (max-width : 1200px) {
+        margin-left: 62%;
+    }
+}
+
+
+.medium-links {
+    margin-top: -200px;
+}
+
+.small-links {
+    margin-top: -200px;
+    font-size: 13px;
+}
+
+.small-links-3 {
+    margin-top: -140px;
+    font-size: 13px;
+}
+
